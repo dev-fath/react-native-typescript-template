@@ -41,6 +41,22 @@ npm run ios
 # OR using Yarn
 yarn ios
 ```
+[package.json](..%2FAlti%2Feuro-home-charger-app%2Fpackage.json)
+Run instructions for iOS:
+
+```
+ • cd "/Users/sckim1-n/Desktop/hanmadiro/ios"
+
+ • Install Cocoapods
+   • bundle install # you need to run this only once in your project.
+   • bundle exec pod install
+   • cd ..
+
+ • npx react-native run-ios
+ - or -
+ • Open hanmadiro/ios/hanmadiro.xcodeproj in Xcode or run "xed -b ios"
+ • Hit the Run button
+```
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
